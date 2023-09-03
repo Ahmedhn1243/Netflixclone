@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    
+}
+body{
+    overflow-x: hidden;
+   
+}
+
+/* ************** navigation*********************** */
+img {
+    position: absolute;
+    height: 70px;
+    width: 130px;
+    left: 4px;
+    top: 20px;
+
+}
+
+#btn {
+    color: black;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    /* border: 2px solid white; */
+
+
+}
+#lang{
+    width: 90px;
+    height: 30px;
+
+
+}
+
+#btnn {
+    position: absolute;
+    right: 45px;
+    top: 20px;
+    height: 33px;
+    width: 70px;
+    background-color: red;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+/* *************making grid layout ****************************** */
+#grid {
+    display: grid;
+
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    height: 100vh;
+    width: 100%; 
+    
+
+}
+
+.box {
+    border-bottom: 6px solid rgba(255, 255, 255, 0.136);
+    background-color: black;
+    height: 400px;
+
+}
+
+#box1,
+#box6 {
+    height: 730px;
+    /* border: 2px solid red; */
+}
+
+/* **************** doing box1************************* */
+#box1 {
+    background : url("img11.webp" ) no-repeat center center/cover;
+    /* opacity: 5; */
+
+    border-bottom: 4px solid rgba(255, 255, 255, 0.145);
+
+
+}
+
+#content {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    top: 300px;
+    left: 29%;
+    top: 20%;
+    color: aliceblue;
+    
+}
+
+h1 {
+    margin: 5px;
+    /* font-style: bold; */
+    font-size: 70px;
+    top: 20px;
+
+}
+
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+#mailbox {
+
+    width: 450px;
+    height: 70px;
+}
+
+#sbtn {
+    width: 180px;
+    height: 70px;
+    background-color: red;
+
+
+}
+
+
+
+/* *************Doing box 2********************* */
+
+
+
+#box2{
+    color: aliceblue;
+    width: 100%;
+
+}
+#content2{
+    
+    width:100%;
+    /* display: inline; */
+    position: relative;
+   font-size: medium;
+   left: 300px;
+  
+   bottom: 150px;
+   
+   
+}
+
+#img2{
+    width: 100%;
+    /* display: inline; */
+    position: relative; 
+    height: 100px;
+    width: 100px;
+    right: 0px;
+    left: 900px;
+    top: 70px;
+    width: 500px;
+    height: 250px;
+    /* bottom: 150px; */
+   
+
+} 
+
+/* *************doing box3******************* */
+#box3{
+    color: aliceblue;
+    width: 100%;
+
+}
+ #img3{
+     width: 100%;  
+    display: inline;
+    position: relative; 
+    height: 300px;
+    width: 400px;
+    left: 250px;
+    top: 30px;
+} 
+
+.cont3{
+  
+   
+   position: absolute;
+    height: 200px; 
+    width:100%; 
+   font-size: medium;
+   left: 730px;
+   top: 1200px;
+   padding: 20px 20px;
+   font-size: small;
+   /* bottom: 400px;
+   
+    */
+  
+
+}
+
+
+/* **********ddoing b0x4******************** */
+
+#box4{
+    color: aliceblue;
+    width: 100%;
+}
+
+
+.cont4{
+    font-size: 2rem;
+    position: absolute;
+    left: 760px;
+    top: 1600px;
+
+}
+
+#img5{
+    display: inline;
+    position: relative;
+    height: 250px;
+    width: 500px;
+    left: 220px;
+    top: 50px;
+}
+
+
+
+/* **************************box6**************************************** */
+#box6{
+    width: 100%;
+    color: aliceblue;
+    height: 550px;
+    
+}
+.cont6{
+    /* display: inline; */
+    position: absolute;
+    left:600px;    
+    top: 1950px;
+    height: 5px;
+}
+.connt6{
+    position: relative;
+    width: 50%;
+    top: 90px;
+    left: 25%;
+    
+
+}
+
+.taa{
+    border: 2px solid #303030;
+    height: 70px;
+    margin-bottom: 15px;
+    background-color: #303030;
+    font-size: 2rem;
+    height: auto;
+
+}
+
+
+/* ********************doing box7*****************************/
+
+#box7{
+    width: 100%;
+    color: #303030;
+   
+}
+.cont7{
+    position: absolute;
+    top: 2550px;
+    left: 200px;
+    height: auto;
+}
+
+.fbox{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+}
+.fbox li {
+    list-style: none;
+    margin: 5px 5px;
+   
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 180px;
+    top: 100px;
+    height: auto;
+}
+
+.cont8{
+    position: relative;
+    top: 320px;
+    left: 210px;
+}
